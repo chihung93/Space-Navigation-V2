@@ -13,4 +13,4 @@ Some Changes:
 4. Mininum SDK 21 - Target 29
 5. Replace all of ***Deprecated*** API to news API.
 
-![New Changes](screens/Screenshot.png.png)
+![New Changes](screens/Screenshot.png)
