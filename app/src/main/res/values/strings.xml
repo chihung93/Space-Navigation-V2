@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="favour">Sale</string>
+    <string name="today">Today</string>
+    <string name="cards">Cards</string>
+    <string name="account">Profile</string>
+</resources>

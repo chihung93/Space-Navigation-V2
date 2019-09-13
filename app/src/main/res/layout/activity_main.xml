@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <henry.co.bottom.navigtion.SpaceNavigationView
+        android:id="@+id/spaceNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        app:active_centre_button_background_color="@color/colorAccent"
+        app:active_centre_button_icon_color="#ffffff"
+        app:active_item_color="@color/colorAccent"
+        app:centre_button_color="@color/colorAccent"
+        app:centre_button_icon="@drawable/ic_my_location"
+        app:inactive_centre_button_icon_color="#ffffff"
+        app:inactive_item_color="#808080"
+        app:layout_behavior="com.luseen.spacenavigation.SpaceNavigationViewBehavior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:space_background_color="#ffffff" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
