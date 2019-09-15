@@ -27,6 +27,7 @@
             android:layout_gravity="center"
             android:textAlignment="center"
             android:maxLines="1"
+            android:layout_marginTop="4dp"
             android:textSize="@dimen/space_item_text_default_size"
             tools:text="Label One" />
     </LinearLayout>

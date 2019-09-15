@@ -33,6 +33,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/navigation/build.gradle">
           <value>
             <set />
@@ -54,6 +59,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/navigation/src/main/java/henry/co/bottom/navigtion/SpaceNavigationViewBehavior.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/navigation/src/main/res/layout/space_item_view.xml">
           <value>
             <set />
           </value>
@@ -159,6 +169,31 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/navigtion/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/java/rockship/co/credit/common/extensions/ImageEx.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/java/rockship/co/credit/features/main/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/java/rockship/co/credit/features/today/TodayViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/res/layout/activity_main.xml">
           <value>
             <set />
           </value>
