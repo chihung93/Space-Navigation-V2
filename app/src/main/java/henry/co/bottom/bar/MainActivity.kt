@@ -1,5 +1,6 @@
 package henry.co.bottom.bar
 
+import android.Manifest
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,6 +8,11 @@ import android.view.View
 import android.widget.Toast
 import androidx.annotation.StringRes
 import androidx.core.view.isVisible
+import com.karumi.dexter.Dexter
+import com.karumi.dexter.MultiplePermissionsReport
+import com.karumi.dexter.PermissionToken
+import com.karumi.dexter.listener.PermissionRequest
+import com.karumi.dexter.listener.multi.MultiplePermissionsListener
 import henry.co.bottom.navigtion.SpaceItem
 import henry.co.bottom.navigtion.SpaceOnClickListener
 import kotlinx.android.synthetic.main.activity_main.*
@@ -53,6 +59,33 @@ class MainActivity : AppCompatActivity() {
         )
         spaceNavigationView.setSpaceOnClickListener(object : SpaceOnClickListener {
             override fun onCentreButtonClick() {
+                Dexter.withActivity(this@MainActivity)
+                    .withPermissions(
+                        Manifest.permission.ACCESS_COARSE_LOCATION
+                        ,Manifest.permission.ACCESS_FINE_LOCATION)
+
+                    .withListener(object: MultiplePermissionsListener {
+                        override fun onPermissionsChecked(report: MultiplePermissionsReport?) {
+                            report?.let {
+                                if(report.areAllPermissionsGranted()){
+                                    toast("OK")
+                                }
+
+                            }
+                        }
+
+                        override fun onPermissionRationaleShouldBeShown(
+                            permissions: MutableList<PermissionRequest>?,
+                            token: PermissionToken?
+                        ) {
+
+                        }
+
+                    })
+                    .withErrorListener {
+                        toast(it.name)
+                    }
+                    .check()
             }
 
             override fun onItemClick(itemIndex: Int, itemName: String) {

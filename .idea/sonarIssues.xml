@@ -183,7 +183,82 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/java/rockship/co/credit/common/ui/SearchBarView.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/java/rockship/co/credit/data/sources/auth/AuthAPI.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/java/rockship/co/credit/di/ActivityModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/java/rockship/co/credit/di/FragmentsModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/java/rockship/co/credit/di/ViewModelModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/java/rockship/co/credit/features/home/HomeFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/java/rockship/co/credit/features/home/HomeViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/java/rockship/co/credit/features/main/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/java/rockship/co/credit/features/main/MainContract.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/java/rockship/co/credit/features/main/MainViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/java/rockship/co/credit/features/profile/ProfileFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/java/rockship/co/credit/features/profile/ProfileFragmentLogged.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/java/rockship/co/credit/features/profileCards/ProfileCardViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/java/rockship/co/credit/features/profileCards/ProfileCardsFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/java/rockship/co/credit/features/signin/SignInActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/java/rockship/co/credit/features/signin/SignInViewModel.kt">
           <value>
             <set />
           </value>
@@ -193,7 +268,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/res/anim/slide_down.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Rockship/Credit/app/src/main/res/layout/activity_sign_in.xml">
           <value>
             <set />
           </value>
