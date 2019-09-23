@@ -1,7 +1,8 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
-apply plugin: 'com.novoda.bintray-release'
+apply plugin: 'com.github.dcendents.android-maven'
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.1"
@@ -38,12 +39,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'com.google.android.material:material:1.1.0-alpha10'
 }
-publish {
-    userOrg = "devbalo"
-    groupId = 'henry.co.bottom.bar.navigation'
-    artifactId = 'SpaceNavigationView'
-    publishVersion = '0.1'
-    desc = 'SpaceNavigationView - pure Kotlin and somethings changes'
-    website = 'https://github.com/chihung93/Space-Navigation-V2'
-    licences = ['MIT']
-}
+
+group = 'com.github.chihung93'
+version = '1.1'
