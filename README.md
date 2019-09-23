@@ -17,7 +17,7 @@ Some Changes:
 1. Remove features Icon and Text on the same line 
 2. Put text under icon
 3. Migrate to Android X and Kotlin 
-4. Mininum SDK 21 - Target 29
+4. Minimum SDK 21 - Target 29
 5. Replace all of ***Deprecated*** API to news API.
 
 ### Installation
@@ -48,9 +48,13 @@ allprojects {
 **Step 2.**  Add the dependency
 ```
 dependencies {
-	implementation 'com.github.chihung93:Space-Navigation-V2:1.0'
+	implementation 'com.github.chihung93:Space-Navigation-V2:{lasted_version}'
 	}
 ```
+
+## Usage
+Please check on this link https://github.com/armcha/Space-Navigation-View
+
 License
 ----
 Project is released under the MIT license.
