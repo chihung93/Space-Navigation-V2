@@ -78,7 +78,7 @@ class MainActivity : AppCompatActivity() {
                             permissions: MutableList<PermissionRequest>?,
                             token: PermissionToken?
                         ) {
-
+                            token?.continuePermissionRequest()
                         }
 
                     })
